@@ -35,7 +35,7 @@ namespace PBL1
             p1.pets = petsLucas;
             p2.pets = petsGoku;
 
-            //Imprimindo tods os pets intaciados a pessoa 1
+            //Imprimindo tods os pets instaciados a pessoa 1
             Console.WriteLine("\nPets de " + p1.nome + ":");
              foreach(var Pet  in petsLucas){
                 Console.WriteLine(Pet.InfoPet());
